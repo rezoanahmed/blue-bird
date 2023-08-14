@@ -21,6 +21,7 @@ session_start();
     <!-- loading bar -->
     <script src="https://cdn.jsdelivr.net/npm/pace-js@latest/pace.min.js"></script>
     <link rel="stylesheet" href="./css/flash.css">
+    <link rel="shortcut icon" href="image/bluebirdlogo.png" type="image/x-icon">
     <title>Hotel blue bird</title>
 </head>
 

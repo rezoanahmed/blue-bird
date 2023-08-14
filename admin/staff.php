@@ -21,6 +21,8 @@ include '../config.php';
         .roombox{
             background-color: #d1d7ff;
             padding: 10px;
+            height: 300px;
+            width: 300px;
         }
     </style>
 </head>
@@ -41,7 +43,7 @@ include '../config.php';
                 <option value="Waiter">Waiter</option>
             </select>
 
-            <button type="submit" class="btn btn-success" name="addstaff">Add Room</button>
+            <button type="submit" class="btn btn-success" name="addstaff">Add Staff</button>
         </form>
 
         <?php

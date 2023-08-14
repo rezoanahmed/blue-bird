@@ -31,6 +31,7 @@ if($usermail == true){
     <!-- sweet alert -->
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <link rel="stylesheet" href="./admin/css/roombook.css">
+    <link rel="shortcut icon" href="image/bluebirdlogo.png" type="image/x-icon">
     <style>
       #guestdetailpanel{
         display: none;
