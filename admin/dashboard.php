@@ -80,7 +80,7 @@
         </div>
         <div class="box profitbox">
         <h2>Profit</h1>  
-          <h1><span>Tk.</span><?php echo $tot?></h1>
+          <h1><?php echo $tot?><span> BDT</span></h1>
         </div>
     </div>
     <div class="chartbox">

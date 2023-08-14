@@ -475,23 +475,23 @@
 				<tr>
 					<td><span><?php echo $troom; ?></span></td>
 					<td><span><?php echo $days; ?> </span></td>
-					<td><span data-prefix>Tk.</span><span><?php echo $type_of_room; ?></span></td>
+					<td><span><?php echo $type_of_room; ?></span><span data-prefix> BDT</span></td>
 					<td><span><?php echo $nroom; ?> </span></td>
-					<td><span data-prefix>Tk.</span><span><?php echo $ttot; ?></span></td>
+					<td><span><?php echo $ttot; ?></span><span data-prefix> BDT</span></td>
 				</tr>
 				<tr>
 					<td><span><?php echo $bed; ?> Bed </span></td>
 					<td><span><?php echo $days; ?></span></td>
-					<td><span data-prefix>Tk.</span><span><?php echo $type_of_bed; ?></span></td>
+					<td><span><?php echo $type_of_bed; ?></span><span data-prefix> BDT</span></td>
 					<td><span><?php echo $nroom; ?> </span></td>
-					<td><span data-prefix>Tk.</span><span><?php echo $btot; ?></span></td>
+					<td><span><?php echo $btot; ?></span><span data-prefix> BDT</span></td>
 				</tr>
 				<tr>
 					<td><span><?php echo $meal; ?> </span></td>
 					<td><span><?php echo $days; ?></span></td>
-					<td><span data-prefix>Tk.</span><span><?php echo $type_of_meal ?></span></td>
+					<td><span><?php echo $type_of_meal ?></span><span data-prefix> BDT</span></td>
 					<td><span><?php echo $nroom; ?> </span></td>
-					<td><span data-prefix>Tk.</span><span><?php echo $mepr; ?></span></td>
+					<td><span><?php echo $mepr; ?></span><span data-prefix> BDT</span></td>
 				</tr>
 			</tbody>
 		</table>
@@ -499,22 +499,22 @@
 		<table class="balance">
 			<tr>
 				<th><span>Total</span></th>
-				<td><span data-prefix>Tk.</span><span><?php echo $fintot; ?></span></td>
+				<td><span data-prefix>BDT </span><span><?php echo $fintot; ?></span></td>
 			</tr>
 			<tr>
 				<th><span>Amount Paid</span></th>
-				<td><span data-prefix>Tk.</span><span>0.00</span></td>
+				<td><span>0.00</span><span data-prefix> BDT</span></td>
 			</tr>
 			<tr>
 				<th><span>Balance Due</span></th>
-				<td><span data-prefix>Tk.</span><span><?php echo $fintot; ?></span></td>
+				<td><span><?php echo $fintot; ?></span><span data-prefix> BDT</span></td>
 			</tr>
 		</table>
 	</article>
 	<aside>
 		<h1><span>Contact us</span></h1>
 		<div>
-			<p align="center">Email: rezoan.cse.2017@gmail.com || Web: www.bluebird.com || Phone: (+88) 01855673393 </p>
+			<p align="center">Email: rezoan.cse.2017@gmail.com || Web: www.bluebirdhotel.com || Phone: (+88) 01855673393 </p>
 		</div>
 	</aside>
 
