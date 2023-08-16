@@ -39,6 +39,7 @@ if($usermail == true){
       #guestdetailpanel .middle{
         height: 450px;
       }
+      
     </style>
 </head>
 
@@ -207,10 +208,11 @@ if($usermail == true){
     <div class="ourroom">
       <h1 class="head">≼ Our room ≽</h1>
       <div class="roomselect">
-        <div class="roombox">
+        <div class="roombox" style="height: 425px">
           <div class="hotelphoto h1"></div>
           <div class="roomdata">
             <h2>Superior Room</h2>
+            <h3 style="color: white; font-size: 20px;">3000 BDT</h3>
             <div class="services">
               <i class="fa-solid fa-wifi"></i>
               <i class="fa-solid fa-burger"></i>
@@ -221,10 +223,11 @@ if($usermail == true){
             <button class="btn btn-primary bookbtn" onclick="openbookbox()">Book</button>
           </div>
         </div>
-        <div class="roombox">
+        <div class="roombox" style="height: 425px">
           <div class="hotelphoto h2"></div>
           <div class="roomdata">
             <h2>Delux Room</h2>
+            <h3 style="color: white; font-size: 20px;">2000 BDT</h3>
             <div class="services">
               <i class="fa-solid fa-wifi"></i>
               <i class="fa-solid fa-burger"></i>
@@ -234,10 +237,11 @@ if($usermail == true){
             <button class="btn btn-primary bookbtn" onclick="openbookbox()">Book</button>
           </div>
         </div>
-        <div class="roombox">
+        <div class="roombox" style="height: 425px">
           <div class="hotelphoto h3"></div>
           <div class="roomdata">
             <h2>Guest Room</h2>
+            <h3 style="color: white; font-size: 20px;">1500 BDT</h3>
             <div class="services">
               <i class="fa-solid fa-wifi"></i>
               <i class="fa-solid fa-burger"></i>
@@ -246,10 +250,11 @@ if($usermail == true){
             <button class="btn btn-primary bookbtn" onclick="openbookbox()">Book</button>
           </div>
         </div>
-        <div class="roombox">
+        <div class="roombox" style="height: 425px">
           <div class="hotelphoto h4"></div>
           <div class="roomdata">
             <h2>Single Room</h2>
+            <h3 style="color: white; font-size: 20px;">1000 BDT</h3>
             <div class="services">
               <i class="fa-solid fa-wifi"></i>
               <i class="fa-solid fa-burger"></i>
