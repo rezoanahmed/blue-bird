@@ -66,10 +66,11 @@
     <script src="//cdnjs.cloudflare.com/ajax/libs/raphael/2.1.0/raphael-min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/morris.js/0.5.1/morris.min.js"></script>
     <title>BlueBird - Admin </title>
+    
 </head>
 <body>
    <div class="databox">
-        <div class="box roombookbox">
+        <div class="box roombookbox font">
           <h2>Total Booked Room</h1>  
           <h1><?php echo $roombookrow ?> / <?php echo $roomrow ?></h1>
         </div>
@@ -77,7 +78,7 @@
         <h2>Total Staff</h1>  
           <h1><?php echo $staffrow ?></h1>
         </div>
-        <div class="box profitbox">
+        <div class="box profitbox" style="font-size: 20px">
         <h2>Profit</h1>  
           <h1><?php echo $tot?><span> BDT</span></h1>
         </div>
